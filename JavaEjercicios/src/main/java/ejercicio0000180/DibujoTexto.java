@@ -20,7 +20,7 @@ public class DibujoTexto extends JPanel{
     }
 
     @Override
-    protected void paintComponent(Graphics g) {
+    protected void paintComponent(Graphics g) {// <-- <podria describir el tipo de dato Graphics?>
         super.paintComponent(g);
         
         g.drawString(texto, 50, 50);
